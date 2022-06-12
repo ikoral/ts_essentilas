@@ -56,24 +56,10 @@ form.addEventListener("submit", (e) => {
     // console.log(doc);
     list.render(doc, type.value, "end");
 });
-//ENUMS
-var ResourceType;
-(function (ResourceType) {
-    ResourceType[ResourceType["BOOK"] = 0] = "BOOK";
-    ResourceType[ResourceType["AUTHOR"] = 1] = "AUTHOR";
-    ResourceType[ResourceType["FILM"] = 2] = "FILM";
-    ResourceType[ResourceType["DIRECTOR"] = 3] = "DIRECTOR";
-    ResourceType[ResourceType["PERSON"] = 4] = "PERSON";
-})(ResourceType || (ResourceType = {}));
-const myDoc2 = {
-    uid: 2,
-    resourceType: ResourceType.BOOK,
-    data: { name: "name of the wind" },
-};
-const myDoc3 = {
-    uid: 2,
-    resourceType: ResourceType.FILM,
-    data: ["test", "milk"],
-};
-console.log(myDoc2);
-console.log(myDoc3);
+// TUPLES
+let arr = ["ilhan", 44, true];
+arr[0] = false;
+arr[1] = "ilhan";
+arr = [44, false, "ilhan"];
+let tup = ["ilhan", 44, false];
+tup[2] = true;

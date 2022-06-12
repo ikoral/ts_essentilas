@@ -77,33 +77,11 @@ form.addEventListener("submit", (e: Event) => {
   list.render(doc, type.value, "end");
 });
 
-//ENUMS
-enum ResourceType {
-  BOOK,
-  AUTHOR,
-  FILM,
-  DIRECTOR,
-  PERSON,
-}
+// TUPLES
+let arr = ["ilhan", 44, true];
+arr[0] = false;
+arr[1] = "ilhan";
+arr = [44, false, "ilhan"];
 
-//with interface
-interface Resource<T> {
-  uid: number;
-  resourceType: ResourceType;
-  data: T;
-}
-
-const myDoc2: Resource<object> = {
-  uid: 2,
-  resourceType: ResourceType.BOOK,
-  data: { name: "name of the wind" },
-};
-
-const myDoc3: Resource<string[]> = {
-  uid: 2,
-  resourceType: ResourceType.FILM,
-  data: ["test", "milk"],
-};
-
-console.log(myDoc2);
-console.log(myDoc3);
+let tup: [string, number, boolean] = ["ilhan", 44, false];
+tup[2] = true;
