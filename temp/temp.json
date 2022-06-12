@@ -1,0 +1,70 @@
+{
+  "permissions": [
+    {
+      "memberId": 13714625,
+      "featureCode": "SC_MONITORING",
+      "kind": "access",
+      "value": 1
+    },
+    {
+      "memberId": 13714625,
+      "featureCode": "SC_REAL_TIME_INSIGHTS",
+      "kind": "access",
+      "value": 1
+    },
+    {
+      "memberId": 13714625,
+      "featureCode": "SC_RESOLVE_REASONS",
+      "kind": "access",
+      "value": 1
+    },
+    {
+      "memberId": 13714625,
+      "featureCode": "SC_SLA",
+      "kind": "access",
+      "value": 1
+    },
+    {
+      "memberId": 13714625,
+      "featureCode": "SC_CUSTOM_VIRTUAL_AGENT",
+      "kind": "access",
+      "value": 1
+    },
+    {
+      "memberId": 13714625,
+      "featureCode": "SC_AUDIT_TRAILS",
+      "kind": "access",
+      "value": 1
+    },
+    {
+      "memberId": 13714625,
+      "featureCode": "SC_LANGUAGE_DETECTION",
+      "kind": "access",
+      "value": 1
+    },
+    {
+      "memberId": 13714625,
+      "featureCode": "SC_CSAT",
+      "kind": "access",
+      "value": 1
+    },
+    {
+      "memberId": 13714625,
+      "featureCode": "SC_PRIORITIZATION",
+      "kind": "access",
+      "value": 1
+    },
+    {
+      "memberId": 13714625,
+      "featureCode": "SC_CUSTOM_AWAY_STATE",
+      "kind": "access",
+      "value": 1
+    },
+    {
+      "memberId": 13714625,
+      "featureCode": "SC_BOOMERANG",
+      "kind": "access",
+      "value": 1
+    }
+  ]
+}
